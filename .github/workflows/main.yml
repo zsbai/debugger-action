@@ -4,7 +4,7 @@ on:
   push:
 jobs:
   Ubuntu:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
